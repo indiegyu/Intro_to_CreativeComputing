@@ -1,7 +1,7 @@
 function setup() {
-  size(600,600);
+  createCanvas(600,600);
   background(255/2);
-  window();
+  windowss();
   fill(0,0,96);
   rect(100,100,400,400);
   moon();
@@ -15,17 +15,17 @@ function draw(){
   fill(255,255,255,too);
   ellipse(x,y,r,r);
   stroke(112,56,0);
-  window();
-  if(mousePressed)
+  windowss();
+  if(mouseIsPressed)
   {
     fill(0,0,96);
     rect(mouseX-20,mouseY-20,40,40);
     moon();
   }
-  //window();
+  //windowss();
 }
 
-function window(){
+function windowss(){
   stroke(112,56,0);
   strokeWeight(30);
   line(100, 100, 100, 500);
