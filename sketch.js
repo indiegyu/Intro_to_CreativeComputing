@@ -8,10 +8,10 @@ function setup() {
 }
 
 function draw(){
-  float x = random(100,500);
-  float y = random(100,500);
-  float too = random(15,50);
-  float r = random(15,30);
+  var x = random(100,500);
+  var y = random(100,500);
+  var too = random(15,50);
+  var r = random(15,30);
   fill(255,255,255,too);
   ellipse(x,y,r,r);
   stroke(112,56,0);
