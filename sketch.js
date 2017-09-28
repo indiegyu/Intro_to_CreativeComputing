@@ -1,4 +1,4 @@
-function void setup() {
+function setup() {
   size(600,600);
   background(255/2);
   window();
@@ -7,7 +7,7 @@ function void setup() {
   moon();
 }
 
-function void draw(){
+function draw(){
   float x = random(100,500);
   float y = random(100,500);
   float too = random(15,50);
@@ -25,7 +25,7 @@ function void draw(){
   //window();
 }
 
-function void window(){
+function window(){
   stroke(112,56,0);
   strokeWeight(30);
   line(100, 100, 100, 500);
@@ -38,7 +38,7 @@ function void window(){
   noStroke();
 }
 
-function void moon(){
+function moon(){
   fill(255,255,159);
   ellipse(200,200,50,50);
   fill(240,230,140);
